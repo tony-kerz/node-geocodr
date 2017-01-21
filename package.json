@@ -1,6 +1,6 @@
 {
   "name": "geocodr",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "geocoder",
   "main": "dist/index.js",
   "repository": "https://github.com/tony-kerz/node-geocodr.git",
