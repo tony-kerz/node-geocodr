@@ -1,0 +1,49 @@
+{
+  "name": "geocodr",
+  "version": "1.1.0",
+  "description": "geocoder",
+  "main": "dist/index.js",
+  "repository": "https://github.com/tony-kerz/node-geocodr.git",
+  "scripts": {
+    "ava": "cross-env DEBUG=test:*,app:* ava -s test/ava",
+    "pretest": "xo",
+    "test": "npm run ava",
+    "prebuild": "npm run test",
+    "build": "babel ./src -d ./dist"
+  },
+  "author": "Tony L. Kerz <anthony.kerz@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.14.0",
+    "debug": "^2.6.0",
+    "tymer": "^1.0.2"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "babel-cli": "^6.22.2",
+    "babel-plugin-transform-object-rest-spread": "^6.22.0",
+    "babel-preset-env": "^1.1.8",
+    "cross-env": "^3.1.4",
+    "xo": "^0.17.1"
+  },
+  "ava": {
+    "require": [
+      "babel-register",
+      "babel-polyfill"
+    ]
+  },
+  "xo": {
+    "space": true,
+    "semicolon": false,
+    "rules": {
+      "no-console": "error",
+      "no-unused-expressions": [
+        "error",
+        {
+          "allowShortCircuit": true,
+          "allowTernary": true
+        }
+      ]
+    }
+  }
+}
