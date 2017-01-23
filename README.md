@@ -2,7 +2,7 @@
 
 this simple component allows for geocoding from various providers
 
-[![Build Status](https://travis-ci.org/tony-kerz/geocodr.svg?branch=tk%2Ftravis)](https://travis-ci.org/tony-kerz/geocodr)
+[![Build Status](https://travis-ci.org/tony-kerz/node-geocodr.svg?branch=tk%2Ftravis)](https://travis-ci.org/tony-kerz/node-geocodr)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
 ## currently supported adapters
